@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+/* global reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Sen", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+/* custom styling */
+hr {
+  border: 2px solid blue;
+}
+.color-primary {
+  color: #2b405c;
+}
+.color-secondary {
+  color: #3397c1;
+}
+.background-primary {
+  background-color: #2b405c !important;
+}
+.background-secondary {
+  background-color: #3397c1 !important;
+}
+.text-justify {
+  text-align: justify;
+}
+.py-15 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}

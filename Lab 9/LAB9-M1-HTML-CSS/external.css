@@ -1,0 +1,40 @@
+.blue {
+  color: blue;
+  background-color: yellow;
+  border: 5px dotted red;
+}
+.red {
+  color: red;
+  background-color: pink;
+  border: 5px dotted blue;
+}
+
+div p {
+  color: red;
+}
+
+div + p {
+  color: green;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+p {
+  font-style: italic;
+  font-size: 25px;
+}
