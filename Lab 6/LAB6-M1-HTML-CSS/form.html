@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <label for="first-name">First Name</label>
+    <br />
+    <input
+      type="text"
+      id="first-name"
+      placeholder="20 letters only"
+      maxlength="20"
+    />
+    <br />
+    <label for="last-name">Last Name</label>
+    <br />
+    <input
+      type="text"
+      id="last-name"
+      placeholder="20 letters only"
+      maxlength="20"
+    />
+    <br />
+    <p>Region</p>
+    <input type="radio" id="asia" name="region" />
+    <label for="asia">Asia</label>
+    <input type="radio" id="europe" name="region" />
+    <label for="europe">Europe</label>
+    <input type="radio" id="north-america" name="region" />
+    <label for="north-america">North-America</label>
+    <input type="radio" id="south-america" name="region" />
+    <label for="south-america">South-America</label>
+    <input type="radio" id="africa" name="region" />
+    <label for="africa">Africa</label>
+    <p>Coding Class</p>
+    <input type="checkbox" id="javascript" />
+    <label for="javascript">JavaScript</label>
+    <input type="checkbox" id="python" />
+    <label for="python">Python</label>
+    <input type="checkbox" id="html-css" />
+    <label for="html-css">HTML/CSS</label>
+    <br />
+    <br />
+    <label for="experience">Your coding experiences</label>
+    <select name="experience" id="experience">
+      <option value="none">No Experiences</option>
+      <option value="some">Some Experiences</option>
+      <option value="extensive">Extensive Experiences</option>
+    </select>
+    <br />
+    <p>Any other comments for your application</p>
+    <textarea name="commnets" id="comments" rows="10" cols="30"></textarea>
+  </body>
+</html>

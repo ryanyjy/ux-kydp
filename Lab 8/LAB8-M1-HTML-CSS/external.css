@@ -1,0 +1,20 @@
+/* part 3 */
+.blue {
+  color: blue;
+  background-color: yellow;
+  border: 5px dotted red;
+}
+.red {
+  color: red;
+  background-color: pink;
+  border: 5px dotted blue;
+}
+
+/* part 4 */
+div p {
+  color: red;
+}
+
+div + p {
+  color: green;
+}
